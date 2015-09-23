@@ -19,7 +19,7 @@ Starting your project
 
 Run the following command::
 
-    $ django-admin.py startproject --template=xxxx
+    $ django-admin.py startproject --template=https://github.com/glynjackson/django-docker-template/zipball/master mysite
 
 Initialise your environment
 ===========================
