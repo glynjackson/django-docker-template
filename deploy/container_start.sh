@@ -1,4 +1,3 @@
 #!/bin/sh
-cd /var/projects/ctzn && python manage.py migrate --noinput
-cd /var/projects/ctzn/deploy/scripts/ && python deploy_docs.py
+cd /var/projects/mysite && python manage.py migrate --noinput
 supervisord -n -c /etc/supervisor/supervisord.conf
