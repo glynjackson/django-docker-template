@@ -1,1 +1,0 @@
-# beanstalk-docker-django
