@@ -26,7 +26,7 @@ Initialise your environment
 
 If you have multiple AWS profiles already configured prefix this command with ``--profile YOURPROFILE``::
 
-    ``eb init``
+    eb init
 
 When prompted select the region from the list of given options then create/select an application name.
 EB should detect your ``Dockerfile`` and ask "It appears you are using Docker. Is this correct?", answer yes.
@@ -38,7 +38,7 @@ Initialise and deploy the Django demo
 
 To setup the application in your newly created environment type::
 
-    ``eb create``
+    eb create
 
 The example Django application will take several minutes to deploy. Once deployed you can type ``eb open``.
 
