@@ -2,7 +2,9 @@
 Elastic Beanstalk Docker template for Django
 ============================================
 
-Boilerplate Docker template for Django 1.8+ running Python 3.4.+ on AWS's Elastic Beanstalk
+Boilerplate Docker template for Django 1.8+ running Python 3.4.+ on AWS's Elastic Beanstalk.
+
+Tutorial here: http://glynjackson.org/weblog/tutorial-deploying-django-app-aws-elastic-beanstalk-using-docker/
 
 Elastic Beanstalk requires the following information to deploy an application:
 
