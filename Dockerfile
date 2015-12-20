@@ -37,8 +37,8 @@ RUN apt-get install -y python-imaging python-psycopg2
 
 RUN groupadd webapps
 RUN useradd webapp -G webapps
-RUN mkdir -p /var/log/webapp/
-RUN mkdir -p /var/run/webapp/
+RUN mkdir -p /var/log/webapp/ && chown -R webapp /var/log/webapp/ && chmod -R u+rX /var/log/webapp/
+RUN mkdir -p /var/run/webapp/ && chown -R webapp /var/run/webapp/ && chmod -R u+rX /var/run/webapp/
 
 ##############################################################################
 # Install and configure supervisord
